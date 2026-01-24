@@ -1,10 +1,9 @@
 import React from "react";
-import NosotrosChatarra1 from '../assets/nosotros-chatarra1.png'
+import NosotrosChatarra1 from '../assets/nosotros-chatarra1.jpg'
 
 const Nosotros = () => {
   return (
-    <div id="nosotros">
-      <section className="bg-white py-16" id="nosotros">
+      <section className="bg-white py-16 scroll-mt-20" id="nosotros">
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
 
           <div>
@@ -35,7 +34,6 @@ const Nosotros = () => {
 
         </div>
       </section>
-    </div>
   );
 };
 

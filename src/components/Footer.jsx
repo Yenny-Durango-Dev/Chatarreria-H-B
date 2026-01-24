@@ -52,7 +52,7 @@ const Footer = () => {
       <hr className='border-gray-700 my-6 max-w-6xl mx-auto' />
 
       <p className='text-sm text-gray-400 text-center'>
-        © 2024 Chatarrería H&B. Todos los derechos reservados.
+        © 2026 Chatarrería H&B. Todos los derechos reservados.
       </p>
     </footer>
   )

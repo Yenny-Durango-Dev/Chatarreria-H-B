@@ -2,8 +2,7 @@ import React from "react";
 
 const Contacto = () => {
   return (
-    <div id="contacto">
-      <section className="bg-white py-16" id="contacto">
+      <section className="bg-white py-16 scroll-mt-20" id="contacto">
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10">
 
           <div>
@@ -31,7 +30,6 @@ const Contacto = () => {
 
         </div>
       </section>
-    </div>
   );
 };
 

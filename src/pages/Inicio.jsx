@@ -1,11 +1,10 @@
 import React from 'react'
 import InicioChatarra1 from '../assets/inicio-chatarra1.png'
-import InicioChatarra2 from '../assets/inicio-chatarra2.png'
+import InicioChatarra2 from '../assets/inicio-chatarra2.jpg'
 
 const Inicio = () => {
     return (
-       <div id="inicio">
-         <section className="bg-gray-100">
+         <section className="bg-gray-100 scroll-mt-20" id='inicio'>
 
             {/* HERO PRINCIPAL */}
             <div className="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 items-center gap-8">
@@ -96,7 +95,6 @@ const Inicio = () => {
             </div>
 
         </section>
-       </div>
     )
 }
 

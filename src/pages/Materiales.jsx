@@ -1,15 +1,14 @@
 import React from "react";
-import MaterialesChatarra1 from '../assets/materiales-chatarra1.png'
-import MaterialesChatarra2 from '../assets/materiales-chatarra2.png'
-import MaterialesChatarra3 from '../assets/materiales-chatarra3.png'
-import MaterialesChatarra4 from '../assets/materiales-chatarra4.png'
-import MaterialesChatarra5 from '../assets/materiales-chatarra5.png'
-import MaterialesChatarra6 from '../assets/materiales-chatarra6.png'
+import MaterialesChatarra1 from '../assets/materiales-chatarra1.jpg'
+import MaterialesChatarra2 from '../assets/materiales-chatarra2.webp'
+import MaterialesChatarra3 from '../assets/materiales-chatarra3.jpg'
+import MaterialesChatarra4 from '../assets/materiales-chatarra4.jpg'
+import MaterialesChatarra5 from '../assets/materiales-chatarra5.jpg'
+import MaterialesChatarra6 from '../assets/materiales-chatarra6.jpg'
 
 const Materiales = () => {
     return (
-        <div id="materiales">
-            <section className="bg-white py-16" id="materiales">
+            <section className="bg-white py-16 scroll-mt-20" id="materiales">
                 <div className="max-w-6xl mx-auto px-4">
 
                     {/* TÍTULO */}
@@ -132,7 +131,6 @@ const Materiales = () => {
 
                 </div>
             </section>
-        </div>
     );
 };
 

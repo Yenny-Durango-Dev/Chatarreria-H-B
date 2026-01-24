@@ -5,7 +5,7 @@ const Navbar = () => {
 
     return (
         <header className="fixed top-0 left-0 w-full bg-[#121513] shadow-md z-50">
-            <nav className="max-w-6xl mx-auto px-4 md:px-6 py-3">
+            <nav className="max-w-6xl mx-auto px-4 md:px-6 py-2">
 
                 <div className="flex justify-between items-center">
 
@@ -14,7 +14,7 @@ const Navbar = () => {
                         <img
                             src="/LogoChatarreriaH&B.png"
                             alt="Chatarrería H&B"
-                            className="h-15 w-auto"
+                            className="h-10 w-auto"
                         />
                         <span className="text-white font-bold tracking-wide text-lg md:text-xl">
                             Chatarrería H&B
@@ -31,7 +31,7 @@ const Navbar = () => {
 
                     {/* MENÚ DESKTOP */}
                     <ul className="hidden md:flex items-center gap-5 lg:gap-7 text-white font-semibold">
-                        {['Inicio', 'Servicios', 'Materiales', 'Precios', 'Ubicación', 'Galería', 'Nosotros', 'Blog']
+                        {['Inicio', 'Servicios', 'Materiales', 'Ubicacion', 'Nosotros']
                             .map(item => (
                                 <li key={item}>
                                     <a
@@ -57,7 +57,7 @@ const Navbar = () => {
                 {/* MENÚ MÓVIL */}
                 {open && (
                     <ul className="md:hidden flex flex-col gap-3 mt-4 text-white text-center border-t border-gray-700 pt-4">
-                        {['Inicio', 'Servicios', 'Materiales', 'Precios', 'Ubicación', 'Galería', 'Nosotros', 'Blog', 'Contacto']
+                        {['Inicio', 'Servicios', 'Materiales', 'Ubicacion', 'Nosotros', 'Contacto']
                             .map(item => (
                                 <li key={item}>
                                     <a
