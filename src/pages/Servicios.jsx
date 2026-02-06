@@ -58,15 +58,6 @@ const Servicios = () => {
                 Aceptamos materiales reciclables limpios y clasificados para su correcto procesamiento y reutilización.
               </p>
             </div>
-            {/* Servicio 5 */}
-            <div className="bg-white p-6 rounded-xl shadow-md border-t-4 border-[#B7570D]">
-              <h3 className="text-xl font-bold text-[#121513]">
-                Se botan escombros
-              </h3>
-              <p className="mt-2 text-gray-700">
-                Gestión adecuada de escombros de construcción y demolición, promoviendo su reutilización y reciclaje.
-              </p>
-            </div>
             {/* Servicio 3 */}
             <div className="bg-white p-6 rounded-xl shadow-md border-t-4 border-[#B7570D]">
               <h3 className="text-xl font-bold text-[#121513]">

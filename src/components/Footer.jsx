@@ -9,9 +9,9 @@ const Footer = () => {
         <div className='flex flex-col items-center md:items-start gap-3'>
           <div className='flex items-center gap-3'>
             <img
-              src="/LogoChatarreriaH&B.png"
+              src="/LogoChatarreriaHB.png"
               alt="Chatarrería H&B"
-              className="h-12 w-auto"
+              className="h-30 w-auto"
             />
             <span className="font-bold tracking-wide text-lg">
               Chatarrería H&B

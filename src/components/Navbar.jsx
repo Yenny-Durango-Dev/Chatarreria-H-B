@@ -12,9 +12,9 @@ const Navbar = () => {
                     {/* LOGO */}
                     <div className="flex items-center gap-3">
                         <img
-                            src="/LogoChatarreriaH&B.png"
+                            src="/LogoChatarreriaHB.png"
                             alt="Chatarrería H&B"
-                            className="h-10 w-auto"
+                            className="h-15 w-auto"
                         />
                         <span className="text-white font-bold tracking-wide text-lg md:text-xl">
                             Chatarrería H&B
