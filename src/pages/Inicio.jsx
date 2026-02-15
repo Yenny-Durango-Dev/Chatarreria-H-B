@@ -4,7 +4,8 @@ import InicioChatarra2 from '../assets/inicio-chatarra2.jpg'
 
 const Inicio = () => {
 
-    const linkCotizar = "https://wa.me/573016905896?text=Hola,%20quiero%20cotizar%20chatarra."
+    const linkCotizar1 = "https://wa.me/573016905896?text=Hola,%20quiero%20cotizar%20chatarra."
+    const linkCotizar2 = "https://wa.me/573052982089?text=Hola,%20quiero%20cotizar%20chatarra."
     const linkAcarreo = "https://wa.me/573052982089?text=Hola,%20necesito%20un%20servicio%20de%20acarreo."
 
     return (
@@ -40,7 +41,7 @@ const Inicio = () => {
 
                             {/* NUMERO VENTAS */}
                             <a
-                                href={linkCotizar}
+                                href={linkCotizar1}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="bg-[#B7570D] text-white px-6 py-3 rounded-lg font-semibold text-center hover:opacity-90 transition flex-1"
@@ -54,7 +55,7 @@ const Inicio = () => {
 
                             {/* NUMERO ACARREOS TAMBIEN COTIZA */}
                             <a
-                                href={linkAcarreo}
+                                href={linkCotizar2}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="bg-[#121513] text-white px-6 py-3 rounded-lg font-semibold text-center hover:opacity-90 transition flex-1"
