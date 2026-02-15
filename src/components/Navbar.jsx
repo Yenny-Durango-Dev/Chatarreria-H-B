@@ -23,7 +23,7 @@ const Navbar = () => {
 
                     {/* HAMBURGUESA */}
                     <button
-                        className="md:hidden text-white text-2xl"
+                        className="md:hidden text-white text-2xl cursor-pointer focus:outline-none"
                         onClick={() => setOpen(!open)}
                     >
                         ☰
@@ -31,7 +31,7 @@ const Navbar = () => {
 
                     {/* MENÚ DESKTOP */}
                     <ul className="hidden md:flex items-center gap-5 lg:gap-7 text-white font-semibold">
-                        {['Inicio', 'Servicios', 'Materiales', 'Ubicacion', 'Nosotros']
+                        {['Inicio', 'Servicios', 'Materiales', 'Ubicacion']
                             .map(item => (
                                 <li key={item}>
                                     <a
@@ -57,7 +57,7 @@ const Navbar = () => {
                 {/* MENÚ MÓVIL */}
                 {open && (
                     <ul className="md:hidden flex flex-col gap-3 mt-4 text-white text-center border-t border-gray-700 pt-4">
-                        {['Inicio', 'Servicios', 'Materiales', 'Ubicacion', 'Nosotros', 'Contacto']
+                        {['Inicio', 'Servicios', 'Materiales', 'Ubicacion', 'Contacto']
                             .map(item => (
                                 <li key={item}>
                                     <a

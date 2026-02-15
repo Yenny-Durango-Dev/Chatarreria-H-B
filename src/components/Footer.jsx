@@ -26,7 +26,7 @@ const Footer = () => {
         <div>
           <h3 className='font-semibold text-[#B7570D] mb-3'>Navegación</h3>
           <ul className='flex flex-col gap-2'>
-            {['inicio', 'servicios', 'materiales', 'precios', 'ubicación', 'galería', 'nosotros', 'blog', 'contacto']
+            {['inicio', 'servicios', 'materiales', 'ubicación', 'contacto']
               .map(item => (
                 <li key={item}>
                   <a
@@ -43,9 +43,10 @@ const Footer = () => {
         {/* CONTACTO RÁPIDO */}
         <div>
           <h3 className='font-semibold text-[#B7570D] mb-3'>Contacto</h3>
-          <p className='text-sm text-gray-300'>📍 Bogotá, Colombia</p>
-          <p className='text-sm text-gray-300'>📞 +57 300 000 0000</p>
-          <p className='text-sm text-gray-300'>✉️ contacto@chatarreriahyb.com</p>
+          <p className='text-sm text-gray-300'>📍 Cl. 57 #48-8, La Candelaria, Medellín</p>
+          <p className='text-sm text-gray-300'>📞 +57 3016905896</p>
+          <p className='text-sm text-gray-300'>📞 +57 3052982089</p>
+          <p className='text-sm text-gray-300'>✉️ chatarreriahyb@gmail.com</p>
         </div>
       </div>
 

@@ -5,7 +5,6 @@ import Inicio from './pages/Inicio'
 import Servicios from './pages/Servicios'
 import Materiales from './pages/Materiales'
 import Ubicacion from './pages/Ubicacion'
-import Nosotros from './pages/Nosotros'
 import Contacto from './pages/Contacto'
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
       <Servicios />
       <Materiales />
       <Ubicacion />
-      <Nosotros />
       <Contacto />
       <Footer />
     </main>
