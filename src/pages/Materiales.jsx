@@ -6,7 +6,7 @@ import MaterialesChatarra4 from '../assets/materiales-chatarra4.jpg'
 import MaterialesChatarra5 from '../assets/materiales-chatarra5.jpg'
 import MaterialesChatarra6 from '../assets/materiales-chatarra6.jpg'
 import MaterialesChatarra7 from '../assets/materiales-chatarra7.jpg'
-import MaterialesChatarra8 from '../assets/materiales-chatarra8.jpeg'
+import MaterialesChatarra9 from '../assets/materiales-chatarra9.jpg'
 
 const Materiales = () => {
     const linkCotizar1 = "https://wa.me/573016905896?text=Hola,%20quiero%20cotizar%20chatarra."
@@ -145,24 +145,21 @@ const Materiales = () => {
                             </p>
                         </div>
                     </div>
-                    {/* TARJETA 7 */}
+                    {/* TARJETA 8 */}
                     <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300 h-full flex flex-col">
                         <img
-                            src={MaterialesChatarra8}
+                            src={MaterialesChatarra9}
                             alt="Materiales de desecho"
                             className="w-full h-44 sm:h-48 object-cover"
                         />
                         <div className="p-5 flex flex-col flex-grow">
                             <h3 className="text-lg md:text-xl font-bold text-[#121513]">
-
-                                Materiales de desecho
-                            </h3>
+                                Compra por liquidación empresarial                            </h3>
                             <p className="mt-2 text-gray-700 text-sm md:text-base flex-grow">
-                                Materiales que no son reciclables, pero que pueden ser procesados de forma segura.
+                                Adquirimos materiales, maquinaria, metal y activos de empresas que necesitan vender rápido por cierre, mudanza o renovación. Servicio ágil y pago inmediato.
                             </p>
                         </div>
                     </div>
-
                 </div>
 
                 {/* BOTÓN FINAL */}

@@ -1,6 +1,7 @@
 import React from 'react'
 import InicioChatarra1 from '../assets/inicio-chatarra1.png'
 import InicioChatarra2 from '../assets/inicio-chatarra2.jpg'
+import InicioChatarra3 from '../assets/inicio-chatarra3.jpeg'
 
 const Inicio = () => {
 
@@ -103,7 +104,7 @@ const Inicio = () => {
                 {/* IMAGEN */}
                 <div>
                     <img
-                        src={InicioChatarra2}
+                        src={InicioChatarra3}
                         alt="Servicio de acarreos"
                         className="rounded-xl shadow-lg w-full h-auto"
                     />
